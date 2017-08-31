@@ -68,7 +68,7 @@ var googleMap = '<div id="map"></div>';
 The code has been taken from https://github.com/twbs/bootstrap/issues/1768
 */
 var shiftWindow = function() {
-    scrollBy(0, -50)
+    scrollBy(0, -50);
 };
 if (location.hash) shiftWindow();
 window.addEventListener("hashchange", shiftWindow);
